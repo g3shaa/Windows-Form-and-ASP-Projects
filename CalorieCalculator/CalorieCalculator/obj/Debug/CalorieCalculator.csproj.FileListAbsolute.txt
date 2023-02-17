@@ -1,0 +1,11 @@
+C:\Users\Geshata\Desktop\github\ASP.NET-MVC-Projects\CalorieCalculator\CalorieCalculator\bin\Debug\CalorieCalculator.exe.config
+C:\Users\Geshata\Desktop\github\ASP.NET-MVC-Projects\CalorieCalculator\CalorieCalculator\bin\Debug\CalorieCalculator.exe
+C:\Users\Geshata\Desktop\github\ASP.NET-MVC-Projects\CalorieCalculator\CalorieCalculator\bin\Debug\CalorieCalculator.pdb
+C:\Users\Geshata\Desktop\github\ASP.NET-MVC-Projects\CalorieCalculator\CalorieCalculator\obj\Debug\CalorieCalculator.csproj.AssemblyReference.cache
+C:\Users\Geshata\Desktop\github\ASP.NET-MVC-Projects\CalorieCalculator\CalorieCalculator\obj\Debug\CalorieCalculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\Geshata\Desktop\github\ASP.NET-MVC-Projects\CalorieCalculator\CalorieCalculator\obj\Debug\CalorieCalculator.Form1.resources
+C:\Users\Geshata\Desktop\github\ASP.NET-MVC-Projects\CalorieCalculator\CalorieCalculator\obj\Debug\CalorieCalculator.Properties.Resources.resources
+C:\Users\Geshata\Desktop\github\ASP.NET-MVC-Projects\CalorieCalculator\CalorieCalculator\obj\Debug\CalorieCalculator.csproj.GenerateResource.cache
+C:\Users\Geshata\Desktop\github\ASP.NET-MVC-Projects\CalorieCalculator\CalorieCalculator\obj\Debug\CalorieCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Geshata\Desktop\github\ASP.NET-MVC-Projects\CalorieCalculator\CalorieCalculator\obj\Debug\CalorieCalculator.exe
+C:\Users\Geshata\Desktop\github\ASP.NET-MVC-Projects\CalorieCalculator\CalorieCalculator\obj\Debug\CalorieCalculator.pdb
