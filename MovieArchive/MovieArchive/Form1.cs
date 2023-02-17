@@ -133,7 +133,15 @@ namespace MovieArchive
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            this.Close();
+            DialogResult dialogResult = MessageBox.Show("Сигурен ли си, че искаш да затвориш апликацията?", "Филмова библиотека", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                this.Close();
+            }
+            else if (dialogResult == DialogResult.No)
+            {
+                //do something else
+            }
 
         }
     }

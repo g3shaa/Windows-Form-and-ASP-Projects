@@ -1,0 +1,11 @@
+C:\Users\Geshata\Desktop\github\ASP.NET-MVC-Projects\PointRectangle\PointRectangle\bin\Debug\PointRectangle.exe.config
+C:\Users\Geshata\Desktop\github\ASP.NET-MVC-Projects\PointRectangle\PointRectangle\bin\Debug\PointRectangle.exe
+C:\Users\Geshata\Desktop\github\ASP.NET-MVC-Projects\PointRectangle\PointRectangle\bin\Debug\PointRectangle.pdb
+C:\Users\Geshata\Desktop\github\ASP.NET-MVC-Projects\PointRectangle\PointRectangle\obj\Debug\PointRectangle.csproj.AssemblyReference.cache
+C:\Users\Geshata\Desktop\github\ASP.NET-MVC-Projects\PointRectangle\PointRectangle\obj\Debug\PointRectangle.csproj.SuggestedBindingRedirects.cache
+C:\Users\Geshata\Desktop\github\ASP.NET-MVC-Projects\PointRectangle\PointRectangle\obj\Debug\PointRectangle.Form1.resources
+C:\Users\Geshata\Desktop\github\ASP.NET-MVC-Projects\PointRectangle\PointRectangle\obj\Debug\PointRectangle.Properties.Resources.resources
+C:\Users\Geshata\Desktop\github\ASP.NET-MVC-Projects\PointRectangle\PointRectangle\obj\Debug\PointRectangle.csproj.GenerateResource.cache
+C:\Users\Geshata\Desktop\github\ASP.NET-MVC-Projects\PointRectangle\PointRectangle\obj\Debug\PointRectangle.csproj.CoreCompileInputs.cache
+C:\Users\Geshata\Desktop\github\ASP.NET-MVC-Projects\PointRectangle\PointRectangle\obj\Debug\PointRectangle.exe
+C:\Users\Geshata\Desktop\github\ASP.NET-MVC-Projects\PointRectangle\PointRectangle\obj\Debug\PointRectangle.pdb
