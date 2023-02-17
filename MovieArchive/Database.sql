@@ -4,5 +4,6 @@ CREATE TABLE Movies (
   ReleaseYear INT NOT NULL,
   Genre VARCHAR(50) NOT NULL,
   Director VARCHAR(100) NOT NULL,
-  Rating DECIMAL(2,1) NOT NULL
+  Rating DECIMAL(2,1) NOT NULL,
+  Opinion VARCHAR(2500) NOT NULL
 );
