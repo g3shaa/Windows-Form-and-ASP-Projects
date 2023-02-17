@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "Познай числото";
+}
+
+<h2>@ViewBag.Message</h2>
+
+<form method="post" action="/Home/Play">
+    <label for="guess">Въведи число от 1 до 10:</label>
+    <input type="text" id="guess" name="guess" />
+    <button type="submit">Познай</button>
+</form>
