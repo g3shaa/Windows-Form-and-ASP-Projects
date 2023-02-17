@@ -42,16 +42,17 @@
             this.btnAddMovie = new System.Windows.Forms.Button();
             this.btnShowMovies = new System.Windows.Forms.Button();
             this.dgvMovies = new System.Windows.Forms.DataGridView();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.btnClear = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnDelete = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.txtMovieId = new System.Windows.Forms.NumericUpDown();
+            this.label9 = new System.Windows.Forms.Label();
+            this.txtOpinion = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMovies)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -147,7 +148,7 @@
             // btnAddMovie
             // 
             this.btnAddMovie.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btnAddMovie.Location = new System.Drawing.Point(251, 420);
+            this.btnAddMovie.Location = new System.Drawing.Point(251, 416);
             this.btnAddMovie.Name = "btnAddMovie";
             this.btnAddMovie.Size = new System.Drawing.Size(218, 39);
             this.btnAddMovie.TabIndex = 10;
@@ -198,7 +199,7 @@
             // btnDelete
             // 
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btnDelete.Location = new System.Drawing.Point(730, 428);
+            this.btnDelete.Location = new System.Drawing.Point(730, 416);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(216, 39);
             this.btnDelete.TabIndex = 15;
@@ -210,7 +211,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label6.Location = new System.Drawing.Point(12, 420);
+            this.label6.Location = new System.Drawing.Point(493, 420);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(66, 18);
             this.label6.TabIndex = 16;
@@ -220,7 +221,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label7.Location = new System.Drawing.Point(12, 454);
+            this.label7.Location = new System.Drawing.Point(493, 454);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(142, 52);
             this.label7.TabIndex = 18;
@@ -234,19 +235,8 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(969, 54);
+            this.panel1.Size = new System.Drawing.Size(970, 54);
             this.panel1.TabIndex = 19;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label8.Location = new System.Drawing.Point(250, 57);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(205, 18);
-            this.label8.TabIndex = 20;
-            this.label8.Text = "Таблицата е визуализирана!";
-            this.label8.Visible = false;
             // 
             // pictureBox2
             // 
@@ -259,19 +249,50 @@
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label8.Location = new System.Drawing.Point(250, 57);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(205, 18);
+            this.label8.TabIndex = 20;
+            this.label8.Text = "Таблицата е визуализирана!";
+            this.label8.Visible = false;
+            // 
             // txtMovieId
             // 
-            this.txtMovieId.Location = new System.Drawing.Point(85, 420);
+            this.txtMovieId.Location = new System.Drawing.Point(566, 420);
             this.txtMovieId.Name = "txtMovieId";
             this.txtMovieId.Size = new System.Drawing.Size(145, 20);
             this.txtMovieId.TabIndex = 21;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label9.Location = new System.Drawing.Point(14, 300);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(61, 18);
+            this.label9.TabIndex = 22;
+            this.label9.Text = "Мнение";
+            // 
+            // txtOpinion
+            // 
+            this.txtOpinion.Location = new System.Drawing.Point(15, 330);
+            this.txtOpinion.Multiline = true;
+            this.txtOpinion.Name = "txtOpinion";
+            this.txtOpinion.Size = new System.Drawing.Size(215, 194);
+            this.txtOpinion.TabIndex = 23;
             // 
             // MovieForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(969, 559);
+            this.ClientSize = new System.Drawing.Size(970, 548);
+            this.Controls.Add(this.txtOpinion);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.txtMovieId);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.panel1);
@@ -322,7 +343,6 @@
         private System.Windows.Forms.Button btnAddMovie;
         private System.Windows.Forms.Button btnShowMovies;
         private System.Windows.Forms.DataGridView dgvMovies;
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnDelete;
@@ -332,6 +352,8 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.NumericUpDown txtMovieId;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox txtOpinion;
     }
 }
 

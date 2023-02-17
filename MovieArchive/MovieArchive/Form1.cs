@@ -25,20 +25,22 @@ namespace MovieArchive
             int releaseYear = int.Parse(txtReleaseYear.Text);
             string genre = txtGenre.Text;
             string director = txtDirector.Text;
+            string opinion = txtOpinion.Text;
             decimal rating = decimal.Parse(txtRating.Text);
 
-            if (txtDirector.Text != "" && txtGenre.Text != "" && txtRating.Text != "" && txtReleaseYear.Text != "" && txtTitle.Text != "")
+            if (txtDirector.Text != "" && txtGenre.Text != "" && txtRating.Text != "" && txtReleaseYear.Text != "" && txtTitle.Text != "" && txtOpinion.Text != " ")
             {
-                string query = "INSERT INTO Movies (Title, ReleaseYear, Genre, Director, Rating) " +
-                "VALUES (@Title, @ReleaseYear, @Genre, @Director, @Rating)";
+                string query = "INSERT INTO Movies (Title, ReleaseYear, Genre, Director, Rating, Opinion) " +
+                "VALUES (@Title, @ReleaseYear, @Genre, @Director, @Rating, @Opinion)";
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     SqlCommand command = new SqlCommand(query, connection);
                     command.Parameters.AddWithValue("@Title", title);
                     command.Parameters.AddWithValue("@ReleaseYear", releaseYear);
                     command.Parameters.AddWithValue("@Genre", genre);
-                    command.Parameters.AddWithValue("@Director", director);
+                    command.Parameters.AddWithValue("@Director", director); 
                     command.Parameters.AddWithValue("@Rating", rating);
+                    command.Parameters.AddWithValue("@Opinion", opinion);
 
 
                     try
@@ -99,6 +101,7 @@ namespace MovieArchive
             txtRating.Text = " ";
             txtReleaseYear.Text = " ";
             txtTitle.Text = " ";
+            txtOpinion.Text = " ";  
            // MessageBox.Show("Изчисти всички полета!");
 
         }
