@@ -1,12 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace MovieArchive
@@ -28,7 +22,7 @@ namespace MovieArchive
             string opinion = txtOpinion.Text;
             decimal rating = decimal.Parse(txtRating.Text);
 
-            if (txtDirector.Text != "" && txtGenre.Text != "" && txtRating.Text != "" && txtReleaseYear.Text != "" && txtTitle.Text != "" && txtOpinion.Text != " ")
+            if (txtDirector.Text != "" && txtGenre.Text != "" && txtRating.Text != "" && txtReleaseYear.Text != "" && txtTitle.Text != "")
             {
                 string query = "INSERT INTO Movies (Title, ReleaseYear, Genre, Director, Rating, Opinion) " +
                 "VALUES (@Title, @ReleaseYear, @Genre, @Director, @Rating, @Opinion)";
@@ -140,7 +134,7 @@ namespace MovieArchive
             }
             else if (dialogResult == DialogResult.No)
             {
-                //do something else
+               
             }
 
         }
